@@ -265,10 +265,9 @@ footer {
     padding: 100px 0;
 }
 .contact  .fa.fa-mobile {font-size: 20px;}
-.contact ul > li {
-}
 .contact ul > li > .fa {
     margin-right: 5px;
+    vertical-align: middle;
 }
 #to-top {
   display: none;
