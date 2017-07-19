@@ -338,3 +338,21 @@ footer {
     .gallery .wrap img.dance {width: 100%; height: auto;}
 
 }
+.connection {
+    background: #337ab7;
+    padding: 50px 0;
+}
+.connection h2 {
+    color: #ffffff;
+}
+.connection input.form-control {margin-bottom: 10px;}
+.connection form > .form-block {display: flex;}
+.connection .form-message,
+.connection .form-message textarea {height: 100%;}
+.connection .form-block-right {margin-bottom: 15px;}
+@media (max-width: 768px){
+    .connection form > .form-block {display: block;}
+    .header {height: 60%;}
+    .header h1 {font-size: 2em;}
+    .header h3 {font-size: 1em;}
+}
